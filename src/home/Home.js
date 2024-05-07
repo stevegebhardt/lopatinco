@@ -7,6 +7,9 @@ export default function Home() {
       <div>
         <Header />
       </div>
+      <section>
+        <h1>Creative Real Estate Developers</h1>
+      </section>
     </>
   );
 }
