@@ -86,3 +86,9 @@ body {
 .p5 {
   padding: 0 0.5em;
 }
+
+.homeSectionTop {
+  background-image: url("/public/sevenMileCrossing.jpeg");
+  background-size: cover;
+  height: 400px;
+}

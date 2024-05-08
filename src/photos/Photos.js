@@ -1,15 +1,13 @@
 import React from "react";
 import Header from "../shared/Header";
 
-export default function Home() {
+export default function Photos() {
   return (
     <>
       <div>
         <Header />
       </div>
-      <section className="homeSectionTop">
-        <h1>Creative Real Estate Developers</h1>
-      </section>
+      <section></section>
     </>
   );
 }
