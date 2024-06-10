@@ -15,6 +15,11 @@ body {
   background-color: var(--clr-background);
 }
 
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .flex-col-center {
   display: flex;
   flex-direction: column;
@@ -91,4 +96,12 @@ body {
   background-image: url("/public/sevenMileCrossing.jpeg");
   background-size: cover;
   height: 400px;
+}
+
+.w-100vw {
+  width: 100vw;
+}
+
+.w-25 {
+  width: 25%;
 }
