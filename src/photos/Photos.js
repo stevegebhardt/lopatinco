@@ -8,15 +8,15 @@ export default function Photos() {
         <Header />
       </div>
       <section className="w-100vw">
-        <div className="flex-row-center">
-          <div className="w-25">
+        <div className="flex-row-center m-1">
+          <div className="w-40 m-1 flex-col-center">
             <img
               src="/windsorRaceway.jpeg"
               alt="Windsor Raceway Grandstands"
             ></img>
             <h4>Windsor Raceway, Windsor, Otario Canada</h4>
           </div>
-          <div className="w-25">
+          <div className="w-40 m-1">
             <p>
               This LoPatin & Co. project returned horse racing to Windsor,
               Ontario after a 30 year hiyatus. The Windsor Raceway demonstrated
@@ -40,16 +40,9 @@ export default function Photos() {
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <div>
-            <img
-              src="/MISpeedway.jpeg"
-              alt="Michigan International Speedway Grandstands"
-            ></img>
-            <h4>Michigan International Speedway, Brooklyn, Michigan</h4>
-          </div>
-          <div>
+      <section className="w-100vw">
+        <div className="flex-row-center m-1">
+          <div className="w-40 m-1">
             <p>
               Michigan's first major auto raceway began to take form when
               Lawrence LoPatin raised $3.5 million and secured approvals for the
@@ -73,18 +66,25 @@ export default function Photos() {
               virtually the entire track is visible.
             </p>
           </div>
+          <div className="w-40 m-1 flex-col-center">
+            <img
+              src="/MISpeedway.jpeg"
+              alt="Michigan International Speedway Grandstands"
+            ></img>
+            <h4>Michigan International Speedway, Brooklyn, Michigan</h4>
+          </div>
         </div>
       </section>
-      <section>
-        <div>
-          <div>
+      <section className="w-100vw">
+        <div className="flex-row-center m-1">
+          <div className="w-40 m-1 flex-col-center">
             <img
               src="/sevenMileCrossing.jpeg"
               alt="Exterior Architecture"
             ></img>
             <h4>Seven Mile Crossings, Livonia, Michigan</h4>
           </div>
-          <div>
+          <div className="w-40 m-1">
             <p>
               This project features two of the same type of buildings that total
               250,000-square-feet of general office space and one freestanding
@@ -101,22 +101,22 @@ export default function Photos() {
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <div>
-            <img
-              src="/embassySuitesHotel.jpeg"
-              alt="Exterior shot of the hotel"
-            ></img>
-            <h4>Embassy Suites Hotel, Southfield, Michigan</h4>
-          </div>
-          <div>
+      <section className="w-100vw">
+        <div className="flex-row-center m-1">
+          <div className="w-40 m-1">
             <p>
               The mixed-use development project that is made up of a 240-unit,
               all suite hotel and a 350,000-square-foot multi-tenant, general
               office complex. It contains Embassy Suites and One Northwestern
               Plaza.
             </p>
+          </div>
+          <div className="w-40 m-1 flex-col-center">
+            <img
+              src="/embassySuitesHotel.jpeg"
+              alt="Exterior shot of the hotel"
+            ></img>
+            <h4>Embassy Suites Hotel, Southfield, Michigan</h4>
           </div>
         </div>
       </section>
