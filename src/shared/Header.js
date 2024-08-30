@@ -14,27 +14,27 @@ export default function Header() {
         </div>
         <div>
           <ul className="navbar">
-            <Link className="nav-link" to="/">
+            <Link className="nav-link montserrat-text" to="/">
               <li className="nav-item">
                 <h4 className="p5">Home</h4>
               </li>
             </Link>
-            <Link className="nav-link" to="/photos">
+            <Link className="nav-link montserrat-text" to="/photos">
               <li className="nav-item">
                 <h4 className="p5">Photos</h4>
               </li>
             </Link>
-            <Link className="nav-link" to="/about">
+            <Link className="nav-link montserrat-text" to="/about">
               <li className="nav-item">
                 <h4 className="p5">About</h4>
               </li>
             </Link>
-            <Link className="nav-link" to="/forsale">
+            <Link className="nav-link montserrat-text" to="/forsale">
               <li className="nav-item">
                 <h4 className="p5">For Sale or Lease</h4>
               </li>
             </Link>
-            <Link className="nav-link" to="/contact">
+            <Link className="nav-link montserrat-text" to="/contact">
               <li className="nav-item">
                 <h4 className="p5">Contact</h4>
               </li>
