@@ -15,6 +15,19 @@ body {
   background-color: var(--clr-background);
 }
 
+.headshot {
+  height: 8rem;
+  border-radius: 5%;
+  border: var(--clr-secondary) solid;
+}
+
+.card {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .flex-row-center {
   display: flex;
   flex-direction: row;
@@ -94,9 +107,15 @@ body {
 }
 
 .homeSectionTop {
-  background-image: url("/public/sevenMileCrossing.jpeg");
+  background-image: url("/public/compass_blueprint.jpg");
   background-size: cover;
-  height: 400px;
+  height: 45rem;
+}
+
+.contactSectionTop {
+  background-image: url("/public/paper_plane_email.jpg");
+  background-size: cover;
+  height: 45rem;
 }
 
 .w-100vw {
