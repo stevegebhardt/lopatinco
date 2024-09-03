@@ -10,16 +10,17 @@
 }
 
 .montserrat-text {
-  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 50;
   font-style: normal;
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: var(--clr-background);
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .headshot {
@@ -45,6 +46,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+img {
+  width: 100%;
 }
 
 .align-center {
@@ -157,7 +161,7 @@ body {
 }
 
 .w-100vw {
-  width: 100vw;
+  width: 100%;
 }
 
 .w-40 {
@@ -170,4 +174,8 @@ body {
 
 .m-0 {
   margin: 0;
+}
+
+/* *****  Media Query  ***** */
+@media only screen and (max-width: 600px) {
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../shared/Header";
+import Footer from "../shared/Footer";
 
 export default function About() {
   return (
@@ -71,6 +72,9 @@ export default function About() {
             new challenges.
           </p>
         </section>
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );
