@@ -7,16 +7,16 @@ export default function Home() {
     <>
       <div className="homeSectionTop">
         <div>
-          <div>
+          <header>
             <Header />
-          </div>
+          </header>
           <section>
             <h1>Creative Real Estate Developers</h1>
           </section>
         </div>
-        <div>
+        <footer>
           <Footer />
-        </div>
+        </footer>
       </div>
     </>
   );

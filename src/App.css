@@ -1,17 +1,15 @@
 :root {
-  --font-primary: ;
-  --font-accent: ;
   --clr-primary: #175fee;
   --clr-secondary: #b7caff;
   --clr-tertiary: #c4a862;
   --clr-tertiaryTransparent: #c4a8629b;
   --clr-background: #eff5f4;
   --clr-text: #000;
+  --font-primary: "Montserrat", sans-serif;
 }
 
 .montserrat-text {
-  font-optical-sizing: auto;
-  font-weight: 50;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -20,13 +18,13 @@ body {
   width: 100%;
   background-color: var(--clr-background);
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-primary);
 }
 
 .headshot {
   height: 8rem;
   border-radius: 5%;
-  border: var(--clr-secondary) solid;
+  border: 2px solid var(--clr-secondary);
 }
 
 .card {
@@ -178,4 +176,24 @@ img {
 
 /* *****  Media Query  ***** */
 @media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-item {
+    width: 100%;
+    text-align: center;
+    margin: 0.5em 0;
+  }
+
+  .homeSectionTop {
+    padding: 1em;
+    background-size: cover;
+  }
+
+  .logo {
+    height: 60px;
+  }
 }
