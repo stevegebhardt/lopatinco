@@ -148,7 +148,7 @@ img {
   justify-content: space-between;
   background-image: url("/public/compass_blueprint.jpg");
   background-size: cover;
-  height: 45rem;
+  height: 100vh;
 }
 
 .contactSectionTop {
@@ -157,7 +157,7 @@ img {
   justify-content: space-between;
   background-image: url("/public/paper_plane_email.jpg");
   background-size: cover;
-  height: 45rem;
+  height: 100vh;
 }
 
 .w-100vw {
