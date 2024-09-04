@@ -29,9 +29,9 @@ export default function Header() {
                 <h4 className="p5">About</h4>
               </li>
             </Link>
-            <Link className="nav-link montserrat-text" to="/forsale">
+            <Link className="nav-link montserrat-text" to="/generational">
               <li className="nav-item">
-                <h4 className="p5">For Sale or Lease</h4>
+                <h4 className="p5">Generational Company</h4>
               </li>
             </Link>
             <Link className="nav-link montserrat-text" to="/contact">

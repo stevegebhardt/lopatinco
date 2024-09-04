@@ -9,8 +9,8 @@ export default function Footer() {
           <p className="m-0">
             <strong>LoPatin & Co</strong>
           </p>
-          <p className="m-0">32000 Northwestern Hwy Ste. 250</p>
-          <p className="m-0">Farmington Hills, MI 48334</p>
+          <p className="m-0">25865 West 12 Mile Road</p>
+          <p className="m-0">Suite 100, Southfield, MI 48034</p>
         </div>
         <div className="footerBox m-1">
           <Link className="nav-link footerBox">
